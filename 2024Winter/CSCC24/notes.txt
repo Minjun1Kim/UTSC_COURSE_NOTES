@@ -1,0 +1,20 @@
+Haskell
+
+Part 2:
+Syntax: Moar context-free grammars; simple parsers
+
+Semantics: By toy language models in Haskell
+Why Haskell: almost like math definition, and executable
+
+Evaluation Order
+
+Define f(x) = 4
+Now what is f(1/0)?
+Call by value (most languages): Evaluate 1/0 first. Error.
+
+Lazy evaluation (Haskell): Don't evaluate 1/0 yet, just plug in as is.
+x is unused => f(1/0) = 4
+
+define: trio x = [x,x,x]
+[inferred] type: t -> [t]
+
