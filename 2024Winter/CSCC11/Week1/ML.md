@@ -54,3 +54,10 @@
   - "the model does not generalize well to the test data" 
 - ideally, we want a model that provides good predictions for new inputs
 - often prefer simple, smooth models.
+
+![image](https://github.com/Minjun1Kim/UTSC_COURSE_NOTES/assets/104747956/577fa486-eea4-45cf-800e-fcabc5fdf40d)
+
+We want bottom right.
+Good predictions for locations on the x-axis for which we have no training data.
+
+
