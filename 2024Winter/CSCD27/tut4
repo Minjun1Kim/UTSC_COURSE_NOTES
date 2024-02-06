@@ -1,0 +1,26 @@
+Authenticated Encryption
+
+1. 
+E_k(m || H(m))
+E_k(m) || H(E_k(m))
+
+2. Send E_k(m) || H(E_k(m))
+
+3. Match E_k(m with H(E_k(m))
+Concatenate the nonce to the beginning of the message then
+
+n || E_k(m) || H(E_k(m)) 
+
+Asymmetric Encryption
+
+1. E_k(n,m) = c
+
+Key Exchange
+
+every conversation different key
+faster: K = (A^b) mod p
+
+Public key infrastructure
+
+1. get a trusted certificate and send it to Alice
+2. 
